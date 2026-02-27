@@ -6,7 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #0b1220; /* cor de funco */
-  color: #fff;
+  color: #e9ecef;
 }
 
 a {
@@ -19,7 +19,7 @@ li {
 }
 
 .logo {
-  color: #ffd600;
+  color: #ffc107;
 }
 
 .navbar {
@@ -50,7 +50,7 @@ li {
 }
 
 .intro {
-  color: #ffd600;
+  color: #ffc107;
   margin-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ li {
 }
 
 .descricao {
-  color: #ffd600;
+  color: #ffc107;
 }
 
 /* SOBRE */
@@ -71,7 +71,7 @@ li {
 }
 
 #sobre h2 {
-  color: #ffd600;
+  color: #ffc107;
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
@@ -79,12 +79,12 @@ li {
 .sobre-conteudo {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* separar os ps dos dados */
-  align-items: center; /* flex possibilita usar esse */
+  gap: 20px;
+  align-items: center;
 }
 
 .sobre-conteudo .sobre-texto {
-  flex: 1; /* usar todo o espaço da tela, se tivesse mais e colocasse 2 dividiria em 2 partes */
+  flex: 1;
 }
 
 .sobre-conteudo .sobre-formacao {
@@ -95,7 +95,7 @@ li {
   color: #9ca3af;
   text-align: left;
   margin-bottom: 20px;
-  line-height: 1.6; /* espaçamento entre as linhas */
+  line-height: 1.6;
 }
 
 .sobre-dados {
@@ -111,7 +111,7 @@ li {
 .sobre-dados strong {
   display: block;
   font-size: 2em;
-  color: #ffd600;
+  color: #ffc107;
 }
 
 .sobre-dados span {
@@ -119,124 +119,148 @@ li {
   color: #9ca3af;
 }
 #projetos {
-  min-height: 100vh; /* no minimo altura de uma tela. #id .classe */
+  min-height: 100vh;
   text-align: center;
-  margin: 20px;
-  padding: 20px;
-}
-.projetos-container {
+  padding: 40px 20px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.projetos-container > * {
-  flex: 1 1 250px; /* minimo cada 1 ocupa 1 espaço e o maximo 1 e 250 de largura max */
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
 }
+
 .projeto-card {
   background: #020617;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .projeto-card:hover {
-  border: 1px solid #ffd600;
+  border-color: #ffc107;
+  transform: translateY(-5px); /* flutuar */
 }
 
 .projeto-card img {
-  width: 100%; /* ocupa 100% q o elemento pai tenha */
-  object-fit: contain;
-  object-position: center;
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem achatar */
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
-
 #projetos h2 {
-  color: #ffd600;
-  margin-bottom: 1em; /* margem para baixo */
+  margin-bottom: 1em;
+}
+#projetos h3 {
+  color: #ffc107;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
 }
 
 .projeto-card p {
   color: #9ca3af;
   margin-bottom: 25px;
+  line-height: 1.6;
+  flex-grow: 1;
 }
 
 .projeto-card a {
-  color: #ffd600;
+  color: #ffc107;
   font-weight: bold;
-  border: 2px solid #ffd600;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
+  border: 2px solid #ffc107;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.projeto-card a:hover {
+  background-color: #ffc107;
+  color: #020617;
 }
 
 #habilidades {
-  padding: 20px;
-  height: 50vh;
-  margin-top: 20px;
+  padding: 60px 20px;
+  min-height: 50vh;
   text-align: center;
-  margin-bottom: 20px;
-  padding-bottom: 50px;
 }
 
 #habilidades p {
   color: #9ca3af;
-
-  margin: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
 }
 
 .habilidades-lista {
-  display: flex;
+  display: grid;
 
-  flex-wrap: wrap;
-
-  gap: 10px;
-
-  margin: 20px;
-
-  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .habilidades-card {
   background-color: #020617;
-
   border: 1px solid #1f2933;
-
   border-radius: 10px;
-
-  padding: 20px 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  min-height: 120px;
 }
 
 .habilidades-card:hover {
-  /* quando o mouse entrar */
+  border: 1px solid #ffc107;
+  transform: scale(1.05);
+}
 
-  border: 1px solid #ffd600;
+.habilidades-card h2 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #e9ecef;
 }
 
 .habilidades-card span {
-  padding: 5px 14px;
-
-  border-radius: 10px;
-
-  background: #020617;
-
-  border: 1px solid #ffd600;
-
-  color: #ffd600;
-
-  font-size: 0.7em;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid #ffc107;
+  color: #ffc107;
+  font-size: 0.65em;
+  font-weight: bold;
+  margin: 10px;
 }
 
-.habilidades-card h3 {
-  margin-bottom: 10px;
+.habilidades-card p {
+  font-size: 0.8rem;
+  margin: 5px 0 10px 0 !important;
+  line-height: 1.2;
 }
-
 #contato {
   min-height: 100vh;
   text-align: center;
-  padding: 2em;
+  padding: 0.5em;
   margin-top: 20px;
 }
 
 #contato h2 {
-  color: #ffd600;
+  color: #ffc107;
   margin-bottom: 20px;
 }
 #contato p {
@@ -263,8 +287,8 @@ li {
   border: 1px solid #1f2933;
 }
 .contato-item strong {
-  color: #ffd600;
-  display: block; /* para nao quebrar o card se necessitar */
+  color: #ffc107;
+  display: block;
   margin-bottom: 5px;
 }
 .contato-item span {
@@ -272,9 +296,7 @@ li {
   font-size: 0.7em;
 }
 .contato-item:hover {
-  /* quando o mouse entrar */
-
-  border: 1px solid #ffd600;
+  border: 1px solid #ffc107;
 }
 
 .footer {
@@ -290,15 +312,15 @@ li {
   gap: 20px;
 }
 .redes-sociais a {
-  border: 1px solid #ffd600;
+  border: 1px solid #ffc107;
   border-radius: 10px;
-  color: #ffd600;
+  color: #ffc107;
   padding: 10px 20px;
 }
 
 .redes-sociais a:hover {
   color: #020617;
-  background: #a8dadc;
+  background: #ffc107;
 }
 #hamburger {
   display: none;
@@ -306,7 +328,7 @@ li {
   background: none;
   border: none;
   cursor: pointer;
-  color: #fff;
+  color: #e9ecef;
 }
 @media (max-width: 768px) {
   .redes-sociais {
@@ -316,7 +338,7 @@ li {
     display: block;
   }
   .menu {
-    position: absolute; /* para nao obedecer tanto o display flex */
+    position: absolute;
     top: 60px;
     right: 40px;
     gap: 15px;
@@ -325,12 +347,12 @@ li {
     display: none;
     flex-direction: column;
     border: 1px solid #ccc;
-    border-radius: 6px 0 0 6px; /* borda arred nos lados direitos */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* sombra 2px abaixo */
-    z-index: 1000; /* visivel a frente de qualquer elemento */
+    border-radius: 6px 0 0 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
     text-align: right;
   }
   .menu.ativa {
     display: flex;
-  } /* quando o menui estiver com a classe ativa faz isso */
+  } /* quando o menu estiver com a classe ativa faz isso */
 }
