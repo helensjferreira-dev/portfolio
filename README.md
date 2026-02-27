@@ -54,3 +54,5 @@ Conforme os requisitos do curso, a página contempla competências em duas frent
 2. Abra o arquivo index.html em qualquer navegador web moderno.
 
 3. Para visualizar a responsividade, utilize as ferramentas de desenvolvedor (F12) e alterne para visualização mobile.
+
+A elaboração desta landing page representou uma etapa fundamental na consolidação dos meus conhecimentos em Front-End, permitindo aplicar conceitos de design responsivo, semântica HTML e manipulação de DOM com JavaScript. Mais do que um exercício técnico, este portfólio reflete meu compromisso com a excelência e minha transição estratégica para a área de tecnologia, unindo a precisão analítica da minha bagagem anterior com a criatividade do desenvolvimento de software.
