@@ -1,7 +1,11 @@
 ## 🚀 Landing Page - Portfólio Profissional (Hélen Ferreira)
 
+> 🔗 **Visualização Online:** [Clique aqui para visualizar a página](https://helensjferreira-dev.github.io/portfolio/)
+
 # 📝 Descrição do Projeto
 Este projeto consiste no desenvolvimento de uma landing page funcional destinada à apresentação do meu portfólio pessoal. A página foi estruturada para reunir e consolidar informações sobre minhas habilidades técnicas e as produções desenvolvidas durante minha trajetória de aprendizado em programação. O objetivo central é utilizar este espaço digital como um instrumento de apresentação profissional para o mercado de tecnologia, permitindo atualizações constantes conforme minha evolução na área.
+
+Este projeto foi desenvolvido como parte da atividade prática para o curso de Introdução à Programação do SENAI, servindo como base para minha transição de carreira para a área de tecnologia.
 
 # 👩‍💼 Sobre a Desenvolvedora
 
@@ -49,10 +53,25 @@ Conforme os requisitos do curso, a página contempla competências em duas frent
 
 # ⚙️ Como executar o projeto
 
-1. Extraia o conteúdo do arquivo compactado (.zip).
+1. Clone o repositório:
+    ```
+    git clone https://github.com/helensjferreira-dev/portfolio.git
+    ```
 
-2. Abra o arquivo index.html em qualquer navegador web moderno.
+2. Navegue até a pasta:
+    ```
+    cd portfolio
+    ```
 
-3. Para visualizar a responsividade, utilize as ferramentas de desenvolvedor (F12) e alterne para visualização mobile.
+3. Abra no navegador:
+
+    Basta abrir o arquivo index.html em qualquer navegador ou utilizar a extensão Live Server no VS Code para uma melhor experiência.
 
 A elaboração desta landing page representou uma etapa fundamental na consolidação dos meus conhecimentos em Front-End, permitindo aplicar conceitos de design responsivo, semântica HTML e manipulação de DOM com JavaScript. Mais do que um exercício técnico, este portfólio reflete meu compromisso com a excelência e minha transição estratégica para a área de tecnologia, unindo a precisão analítica da minha bagagem anterior com a criatividade do desenvolvimento de software.
+
+👤 Autora
+Hélen Ferreira - Desenvolvedora Full-Stack em transição de carreira.
+
+📸 [Linkedin](https:www.linkedin.com/in/helensjferreira-dev)
+
+💬 [WhatsApp](https://wa.me/5548988183720)
