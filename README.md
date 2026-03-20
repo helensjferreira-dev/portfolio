@@ -3,7 +3,7 @@
 [🇧🇷 Português](#-português) | [🇺🇸 English](#-english)
 
 ## 🇧🇷 Português
-
+  
 > 🔗 **Visualização Online:** [Clique aqui para visualizar a página](https://helensjferreira-dev.github.io/portfolio/)
 
 ### 📝 Descrição do Projeto
@@ -143,7 +143,7 @@ The interface was designed with a focus on accessibility and visual comfort:
 ### ⚙️ How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/helensjferreira-dev/portfolio.git](https://github.com/helensjferreira-dev/portfolio.git)
+   git clone https://github.com/helensjferreira-dev/portfolio.git
 
 2. Navigate to the folder:
     ```bash
@@ -157,6 +157,6 @@ Hélen Ferreira -
 Full-Stack Developer in Career Transition.  
 Desenvolvedora Full-Stack em transição de carreira.
 
-📸 [Linkedin](https:www.linkedin.com/in/helensjferreira-dev)
+📸 [Linkedin](https://www.linkedin.com/in/helensjferreira-dev)
 
 💬 [WhatsApp](https://wa.me/5548988183720)
