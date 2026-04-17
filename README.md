@@ -67,6 +67,7 @@ Conforme os requisitos do curso, a página contempla competências em duas frent
     ├── style.css       # Estilização e responsividade
     └── img/            # Assets visuais e capas dos projetos
         ├── ai_predictions.png
+        ├── automacao.png
         ├── churn_analysis.png
         ├── crud.jpg
         ├── dados-ecommerce.png
@@ -157,6 +158,7 @@ The interface was designed with a focus on accessibility and visual comfort:
     ├── style.css       # Styling and responsiveness
     └── img/            # Visual assets and project covers
         ├── ai_predictions.png
+        ├── automacao.png
         ├── churn_analysis.png
         ├── crud.jpg
         ├── dados-ecommerce.png
