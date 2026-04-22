@@ -14,7 +14,11 @@ Este projeto foi desenvolvido como parte da atividade prática para o curso de I
 
 ### 👩‍💼 Sobre a Desenvolvedora
 
-Minha trajetória profissional é marcada pela transição da gestão e análise técnica na Perícia Judicial para o desenvolvimento de software. Essa bagagem anterior me proporcionou um perfil rigoroso, analítico e focado na precisão para resolver problemas complexos. Atualmente, foco em soluções Full-Stack, unindo interfaces modernas no Front-End com arquiteturas robustas em Node.js e Python no Back-End.
+Desenvolvedora backend em transição de carreira, com foco em Python, APIs REST e integração com bancos de dados.
+
+Possuo experiência prática no desenvolvimento de aplicações com autenticação, CRUD, automações e integração com IA, utilizando tecnologias como Python, Flask, Node.js e SQL.
+
+Minha trajetória anterior em gestão, documentação técnica e análise de dados contribuiu para o desenvolvimento de um perfil analítico, organizado e orientado à resolução de problemas.
 
 ### 🛠️ Tecnologias Utilizadas
 
@@ -50,13 +54,13 @@ Conforme os requisitos do curso, a página contempla competências em duas frent
 
 - Sobre: Detalhamento da transição de carreira e indicadores de experiência.
 
-- Projetos: Catálogo com 10 projetos, descrições técnicas e links diretos para o GitHub.
+- Projetos: Catálogo com 5 projetos, descrições técnicas e links diretos para o GitHub.
 
 - Habilidades: Exposição organizada e compacta das tecnologias e processos.
 
 - Contato: Canais diretos de comunicação e redes sociais profissionais.
 
-### 📁 Estrutura de Arquivos 
+### 📁 Estrutura de Arquivos
 
 ```
 ├── index.html          # Estrutura principal da Landing Page
@@ -68,15 +72,9 @@ Conforme os requisitos do curso, a página contempla competências em duas frent
     └── img/            # Assets visuais e capas dos projetos
         ├── ai_predictions.png
         ├── automacao.png
-        ├── churn_analysis.png
         ├── crud.jpg
-        ├── dados-ecommerce.png
         ├── ia-futebol.jpg
-        ├── logica.jpg
-        ├── pi-estetica.jpg
-        ├── portfolio-kevin.png
-        ├── programacao.jpg
-        └── python.jpg
+        └── pi-estetica.jpg
 ```
 
 ### ⚙️ Como executar o projeto
@@ -113,7 +111,11 @@ This project was developed as a practical activity for the SENAI Introduction to
 
 ### 👩‍💼 About the Developer
 
-My professional path is marked by a transition from management and technical analysis in **Judicial Forensic Expert Work** to software development. This background has provided me with a rigorous, analytical profile focused on precision when solving complex problems. Currently, I focus on Full-Stack solutions, combining modern Front-End interfaces with robust architectures in Node.js and Python on the Back-End.
+Backend developer transitioning into tech, focused on Python, REST APIs and database integration.
+
+Hands-on experience developing applications with authentication, CRUD operations, automation and AI integration using technologies such as Python, Flask, Node.js and SQL.
+
+Previous experience in management, technical documentation and data analysis contributed to building an analytical, organized and problem-solving mindset.
 
 ### 🛠️ Technologies Used
 
@@ -137,11 +139,12 @@ The interface was designed with a focus on accessibility and visual comfort:
 - **Behavioral (Soft Skills):** Focus on Problem Solving (refined through Judicial Expertise), Analytical Thinking, and experience with Agile Methodologies (Scrum/Kanban).
 
 ### 📁 Page Sections
+
 - Home (Hero): Direct and professional introduction.
 
 - About: Detailed career transition story and key experience indicators.
 
-- Projects: Showcase of 10 projects with technical descriptions and direct GitHub links.
+- Projects: Showcase of 5 projects with technical descriptions and direct GitHub links.
 
 - Skills: Organized and compact display of tech stack and professional processes.
 
@@ -159,15 +162,9 @@ The interface was designed with a focus on accessibility and visual comfort:
     └── img/            # Visual assets and project covers
         ├── ai_predictions.png
         ├── automacao.png
-        ├── churn_analysis.png
         ├── crud.jpg
-        ├── dados-ecommerce.png
         ├── ia-futebol.jpg
-        ├── logica.jpg
-        ├── pi-estetica.jpg
-        ├── portfolio-kevin.png
-        ├── programacao.jpg
-        └── python.jpg
+        └── pi-estetica.jpg
 ```
 
 ### ⚙️ How to Run

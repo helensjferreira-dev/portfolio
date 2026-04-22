@@ -11,7 +11,10 @@
     <header class="hero">
       <nav class="navbar">
         <h3 class="logo">Hélen Ferreira</h3>
-        <button id="hamburger">&#9776;</button>
+        <button type="button" id="hamburger" aria-label="Abrir menu">
+          &#9776;
+        </button>
+
         <ul class="menu" id="menu">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
@@ -21,7 +24,7 @@
       </nav>
       <div class="hero-container">
         <p class="intro">Olá, eu sou</p>
-        <h2>Desenvolvedora Full-Stack Junior</h2>
+        <h2>Desenvolvedora Backend Junior</h2>
         <p class="descricao">Traduzindo sonhos para a linguagem de máquina.</p>
       </div>
     </header>
@@ -30,42 +33,40 @@
       <div class="sobre-conteudo">
         <div class="sobre-texto">
           <p>
-            Minha trajetória profissional é definida pela transição da gestão e
-            análise técnica para o desenvolvimento de software. Com base sólida
-            em Administração e experiência e Perícia Judicial, consolidei um
-            perfil marcado pelo rigor analítico e pela precisão na resolução de
-            problemas complexos, competências que hoje aplico diretamente na
-            construção de sistemas.
+            Sou desenvolvedora backend em transição de carreira, com foco em
+            Python, APIs REST, automações e integração com Inteligência
+            Artificial Generativa.
           </p>
 
           <p>
-            Atualmente, foco na entrega de soluções de ponta a ponta como
-            Desenvolvedora Full Stack Junior. No Front-End foco na criação de
-            interfaces modernas e responsivas, garantindo experiências
-            intuitivas para o usuário. No Back-End trabalho com o ecossistema
-            Node.js, Express, Python e Flask, utilizando um domínio avançado de
-            SQL para projetar arquiteturas de dados eficientes.
+            Minha trajetória profissional anterior foi marcada por atuação em
+            áreas analíticas, gestão de processos e documentação técnica,
+            experiências que fortaleceram habilidades como pensamento lógico,
+            organização, resolução de problemas e visão de negócio.
           </p>
           <p>
-            Minha meta é a excelência técnica, por isso dedico-me continuamente
-            ao aprimoramento das minhas habilidades para viabilizar projetos
-            digitais onde a estética do Front-End e a robustez do Back-End se
-            encontram em perfeita sintonia.
+            Atualmente, venho desenvolvendo projetos práticos utilizando Python,
+            Flask, Node.js e banco de dados SQL, buscando criar soluções
+            eficientes, escaláveis e orientadas a dados.
+          </p>
+          <p>
+            Tenho grande interesse em backend, arquitetura de software e IA
+            aplicada ao desenvolvimento de soluções reais.
           </p>
         </div>
         <div class="sobre-dados">
           <div>
-            <strong> 10+</strong>
-            <span>Projetos concluídos</span>
+            <strong> 5+</strong>
+            <span>Projetos práticos</span>
           </div>
 
           <div>
-            <strong> 1+</strong>
-            <span>Anos de experiência</span>
+            <strong> 3+</strong>
+            <span>APIs e automações</span>
           </div>
           <div>
             <strong> 10+</strong>
-            <span>Tecnologias</span>
+            <span>Tecnologias aplicadas</span>
           </div>
         </div>
       </div>
@@ -75,18 +76,17 @@
       <div class="projetos-container">
         <div class="projeto-card">
           <img
-            src="./static/img/ai_predictions.png"
-            alt="Printscreen Matriz de Confusão ML"
+            src="./static/img/pi-estetica.png"
+            alt="captura de tela da aplicação com relatório de estoque"
           />
-          <h3>Classificação de Score de Crédito com Machine Learning</h3>
+          <h3>Sistema de Gestão de Estoque (Flask + MySQL)</h3>
           <p>
-            Modelo de Machine Learning para automatizar o Score de Crédito
-            utilizando Random Forest e KNN. Alcançando 82% de acurácia com foco
-            em mitigação de riscos e análise de dados financeiros. Desenvolvido
-            com Python, Scikit-Learn e Pandas.
+            Sistema completo com autenticação, cadastro de produtos,
+            fornecedores e lotes, controle de estoque e geração de relatórios,
+            desenvolvido para o curso de Estética.
           </p>
           <a
-            href="https://github.com/helensjferreira-dev/ai-predictions"
+            href="https://github.com/helensjferreira-dev/pi-estetica"
             target="_blank"
             >Ver projeto</a
           >
@@ -111,39 +111,16 @@
         <div class="projeto-card">
           <img
             src="./static/img/automacao.png"
-            alt="Printscreen Churn Graphic"
+            alt="Printscreen Formulário Automação de Cadastro de Produtos"
           />
           <h3>Automação RPA de Cadastro de Produtos</h3>
           <p>
-            Desenvolvimento de solução RPA (Robotic Process Automation) em
-            Python utilizando a biblioteca PyAutoGUI para o cadastro massivo de
-            produtos em sistemas web. O projeto integra manipulação de dados em
-            CSV com Pandas, interface responsiva (HTML/CSS/JS) e implementação
-            de mecanismos de failsafe (segurança) para otimização e precisão do
-            fluxo de trabalho.
+            Automação RPA desenvolvida em Python para cadastro em massa de
+            produtos, utilizando PyAutoGUI e Pandas para integração com arquivos
+            CSV e otimização de processos repetitivos.
           </p>
           <a
             href="https://github.com/helensjferreira-dev/automacao-python"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
-        <div class="projeto-card">
-          <img
-            src="./static/img/churn_analysis.png"
-            alt="Printscreen Churn Graphic"
-          />
-          <h3>
-            Análise de Churn: Redução de Cancelamentos em Empresa de Serviços
-          </h3>
-          <p>
-            Análise de Churn de Clientes em 50 mil registros utilizando Python.
-            Identificação de padrões críticos em Call Center e Inadimplência,
-            projetando uma redução de churn de 56% para 15%. Foco em Business
-            Intelligence e Retenção.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/analise-dados-cancelamentos"
             target="_blank"
             >Ver projeto</a
           >
@@ -164,104 +141,21 @@
             >Ver projeto</a
           >
         </div>
-        <div class="projeto-card">
-          <img
-            src="./static/img/dados-ecommerce.png"
-            alt="Printscreen Dashboard E-commerce Olist - Looker Studio"
-          />
-          <h3>Análise de E-commerce & Dashboard de BI Estratégico</h3>
-          <p>
-            Análise de dados de e-commerce (Olist) com Python para identificação
-            de gargalos logísticos e criação de dashboard estratégico interativo
-            no Looker Studio.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/analise-ecommerce-olist"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
 
         <div class="projeto-card">
           <img
-            src="./static/img/pi-estetica.png"
-            alt="captura de tela da aplicação com relatório de estoque"
+            src="./static/img/ai_predictions.png"
+            alt="Printscreen Matriz de Confusão ML"
           />
-          <h3>Sistema de Gestão de Estoque (Flask + MySQL)</h3>
+          <h3>Classificação de Score de Crédito com Machine Learning</h3>
           <p>
-            Sistema completo com autenticação, cadastro de produtos,
-            fornecedores e lotes, controle de estoque e geração de relatórios,
-            desenvolvido para o curso de Estética.
+            Modelo de Machine Learning para automatizar o Score de Crédito
+            utilizando Random Forest e KNN. Alcançando 82% de acurácia com foco
+            em mitigação de riscos e análise de dados financeiros. Desenvolvido
+            com Python, Scikit-Learn e Pandas.
           </p>
           <a
-            href="https://github.com/helensjferreira-dev/pi-estetica"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
-
-        <div class="projeto-card">
-          <img
-            src="./static/img/portfolio-kevin.png"
-            alt="captura de tela da página publicada do portfólio com a foto e logotipo do Kevin"
-          />
-          <h3>Portfólio Profissional — Cliente Kevin</h3>
-          <p>
-            Site moderno e responsivo desenvolvido para apresentar projetos,
-            habilidades e experiência profissional de um designer.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/portfolio-kevin"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
-
-        <div class="projeto-card">
-          <img
-            src="./static/img/python.jpg"
-            alt="captura de tela com código de programação e logotipo python"
-          />
-          <h3>Sistema Bancário em Python</h3>
-          <p>
-            Projeto de lógica com operações de saque, depósito, extrato e
-            controle de contas, utilizando funções bem estruturadas e
-            validações.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/desafio-trilha-dio"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
-        <div class="projeto-card">
-          <img
-            src="./static/img/programacao.jpg"
-            alt="imagem com mãos digitando muitos códigos no teclado de um notebook"
-          />
-          <h3>Sistema de Cadastro de Imigrantes (CLI em Python)</h3>
-          <p>
-            Aplicação de linha de comando para cadastrar e gerenciar dados de
-            imigrantes, reforçando fundamentos de Python e CRUD básico.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/sistema-imigrantes"
-            target="_blank"
-            >Ver projeto</a
-          >
-        </div>
-        <div class="projeto-card">
-          <img
-            src="./static/img/logica.jpg"
-            alt="imagem de um cubo mágico colorido com vários símbolos matemáticos e de programação"
-          />
-          <h3>Fundamentos e Lógica de Programação</h3>
-          <p>
-            Coleção de exercícios e mini‑projetos em Python e Scratch, incluindo
-            Jogo da Velha, estruturas de repetição e algoritmos básicos.
-          </p>
-          <a
-            href="https://github.com/helensjferreira-dev/iniciacao-programacao"
+            href="https://github.com/helensjferreira-dev/ai-predictions"
             target="_blank"
             >Ver projeto</a
           >
@@ -276,30 +170,24 @@
       </p>
       <div class="habilidades-lista">
         <div class="habilidades-card">
-          <h3>HTML5</h3>
-          <span>Avançado</span>
-        </div>
-
-        <div class="habilidades-card">
-          <h3>CSS3</h3>
-          <span>Avançado</span>
+          <h3>Python</h3>
+          <span>Backend • Automação • APIs</span>
         </div>
         <div class="habilidades-card">
-          <h3>JavaScript</h3>
-          <span>Avançado</span>
+          <h3>Flask</h3>
+          <span>APIs REST • Backend</span>
         </div>
-
         <div class="habilidades-card">
           <h3>Node.js</h3>
-          <span>Avançado</span>
+          <span>Express • APIs REST</span>
         </div>
         <div class="habilidades-card">
-          <h3>Express</h3>
-          <span>Avançado</span>
+          <h3>SQL</h3>
+          <span>MySQL • Modelagem de Dados</span>
         </div>
         <div class="habilidades-card">
-          <h3>Python</h3>
-          <span>Avançado</span>
+          <h3>Git & Github</h3>
+          <span>Versionamento • Colaboração</span>
         </div>
         <div class="habilidades-card">
           <h3>Machine Learning</h3>
@@ -307,50 +195,48 @@
         </div>
         <div class="habilidades-card">
           <h3>Automação</h3>
-          <span>PyAutoGUI</span>
-        </div>
-
-        <div class="habilidades-card">
-          <h3>Flask</h3>
-          <span>Avançado</span>
+          <span>PyAutoGUI • Processos</span>
         </div>
         <div class="habilidades-card">
-          <h3>SQL</h3>
-          <span>Avançado</span>
+          <h3>Análise de Dados</h3>
+          <span>Python para Dados</span>
         </div>
         <div class="habilidades-card">
           <h3>Modelagem de Dados</h3>
           <span>Predição de Risco</span>
-        </div>
-
-        <div class="habilidades-card">
-          <h3>Looker Studio</h3>
-          <span>BI & Dashboards</span>
         </div>
         <div class="habilidades-card">
           <h3>Data Viz & Analytics</h3>
           <span>Matplotlib / Seaborn</span>
         </div>
         <div class="habilidades-card">
-          <h3>Análise de Dados</h3>
-          <span>Python para Dados</span>
-        </div>
-
-        <div class="habilidades-card">
           <h3>Business Intelligence</h3>
           <span>Insights Estratégicos</span>
         </div>
         <div class="habilidades-card">
-          <h3>Git & Github</h3>
-          <span>Avançado</span>
-        </div>
-        <div class="habilidades-card">
-          <h3>Metodologias Ágeis</h3>
-          <span>Scrum / Kanban</span>
+          <h3>Looker Studio</h3>
+          <span>BI & Dashboards</span>
         </div>
         <div class="habilidades-card">
           <h3>Estatística Aplicada</h3>
           <span>Métricas de Performance</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>JavaScript</h3>
+          <span>Intermediário</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>HTML5</h3>
+          <span>Interfaces Web</span>
+        </div>
+
+        <div class="habilidades-card">
+          <h3>CSS3</h3>
+          <span>Responsividade • Estilização</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>Metodologias Ágeis</h3>
+          <span>Scrum / Kanban</span>
         </div>
 
         <div class="habilidades-card">
@@ -370,9 +256,9 @@
     <section id="contato">
       <h2>Entre em contato</h2>
       <p>
-        Disponível para novos desafios e colaborações em projetos Full-Stack.
-        Sinta-se à vontade para entrar em contato em qualquer um dos canais
-        abaixo!
+        Disponível para oportunidades como Desenvolvedora Backend Júnior,
+        projetos freelance e colaborações em tecnologia. Entre em contato pelos
+        canais abaixo.
       </p>
       <div class="contatos-lista">
         <div class="contato-item">
@@ -390,10 +276,11 @@
           <a
             href="https://google.com/maps/place/Florianopolis,+SC/"
             target="_blank"
-            >Florianópolis/SC</a
+            >Florianópolis • SC • Brasil</a
           >
         </div>
       </div>
+      <p>Disponível para oportunidades remotas.</p>
       <div class="redes-sociais">
         <a href="https://github.com/helensjferreira-dev" target="_blank"
           >GitHub</a
@@ -401,7 +288,7 @@
         <a
           href="https://www.linkedin.com/in/helensjferreira-dev"
           target="_blank"
-          >Linkedin</a
+          >LinkedIn</a
         >
       </div>
     </section>
