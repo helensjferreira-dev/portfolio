@@ -132,10 +132,11 @@ li {
 
 .projetos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .projeto-card {
@@ -358,4 +359,7 @@ li {
   .menu.ativa {
     display: flex;
   } /* quando o menu estiver com a classe ativa faz isso */
+  .projetos-container {
+    grid-template-columns: 1fr;
+  }
 }
